@@ -8,32 +8,35 @@
 
     <ImageButton
         android:id="@+id/imageButtonTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="86dp"
+        android:src="@mipmap/testing"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:srcCompat="@drawable/ic_baseline_medical_services_24" />
+        tools:srcCompat="@mipmap/testing" />
 
     <ImageButton
         android:id="@+id/imageButtonList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
+        android:src="@drawable/ic_baseline_list_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageButtonTest"
         tools:srcCompat="@drawable/ic_baseline_list_24" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="32dp"
+        android:src="@android:drawable/ic_menu_myplaces"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonList"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@android:drawable/ic_menu_myplaces" />
 
     <ImageButton
         android:id="@+id/imageButtonListTest"
@@ -41,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="76dp"
+        android:src="@drawable/ic_baseline_search_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonTest"
         tools:srcCompat="@drawable/ic_baseline_search_24" />
@@ -57,7 +61,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewSettings"
         android:layout_width="150px"
         android:layout_height="150px"
         android:layout_marginEnd="64dp"

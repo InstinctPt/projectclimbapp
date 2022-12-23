@@ -1,4 +1,4 @@
-package leandro.personal.projectclimb
+package leandro.ipca.projectclimb
 
 import org.junit.Test
 

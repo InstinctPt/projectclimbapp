@@ -1,9 +1,8 @@
-package leandro.personal.projectclimb
+package leandro.ipca.projectclimb
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import leandro.personal.projectclimb.databinding.ActivitySplashBinding
-import leandro.personal.projectclimb.databinding.ActivityTestingBinding
+import leandro.ipca.projectclimb.databinding.ActivityTestingBinding
 
 class Testing : AppCompatActivity() {
     private lateinit var binding: ActivityTestingBinding

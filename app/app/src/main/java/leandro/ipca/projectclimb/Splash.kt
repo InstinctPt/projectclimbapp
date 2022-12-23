@@ -1,4 +1,4 @@
-package leandro.personal.projectclimb
+package leandro.ipca.projectclimb
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import leandro.personal.projectclimb.databinding.ActivitySplashBinding
+import leandro.ipca.projectclimb.databinding.ActivitySplashBinding
 
 class Splash : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
@@ -23,7 +23,7 @@ class Splash : AppCompatActivity() {
             lifecycleScope.launch (Dispatchers.Main) {
                     startActivity(
                         Intent(this@Splash,
-                            MainActivity::class.java)
+                            LoginActivity::class.java)
                     )
             }
 

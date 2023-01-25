@@ -23,18 +23,16 @@ class LoginActivity : AppCompatActivity() {
 
 
         auth = Firebase.auth
-        var email = binding.textInputEmail
-        var password = binding.textInputPassword
-        var button = binding.button
-        var register = binding.registerButton
+        val email = binding.textInputEmail
+        val password = binding.textInputPassword
+        val button = binding.button
 
         val currentUser = auth.currentUser
         if(currentUser != null){
             //Firebase.auth.signOut()
-
             startActivity(
                 Intent(this@LoginActivity,
-                    MainActivity::class.java)
+                    list_events::class.java)
             )
         }
 
@@ -47,7 +45,7 @@ class LoginActivity : AppCompatActivity() {
                         val user = auth.currentUser
                         startActivity(
                             Intent(this@LoginActivity,
-                                MainActivity::class.java)
+                                list_events::class.java)
                         )
                     } else {
                         // If sign in fails, display a message to the user.
@@ -59,12 +57,6 @@ class LoginActivity : AppCompatActivity() {
                 }
         }
 
-        register.setOnClickListener {
-            startActivity(
-                Intent(this@LoginActivity,
-                    RegisterUser::class.java)
-            )
-        }
 
 
 

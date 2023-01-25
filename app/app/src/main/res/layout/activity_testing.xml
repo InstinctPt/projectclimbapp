@@ -6,13 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".Testing">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Testing ACtivity"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonTesting2"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/custombutton_"
+        android:isScrollContainer="false"
+        android:text="Test"
+        android:textAllCaps="true"
+        android:textColor="#FFFBF6"
+        android:textSize="20sp"
+        app:icon="@drawable/ic_baseline_list_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitleMain4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Altitude: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textColorHighlight="#6A2C2C"
+        android:textStyle="normal"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitleMain6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:text="Testing: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textColorHighlight="#6A2C2C"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleMain4" />
+
+    <TextView
+        android:id="@+id/textViewTitleMain7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leandro Silva"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textColorHighlight="#6A2C2C"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTitleMain6"
+        app:layout_constraintStart_toEndOf="@+id/textViewTitleMain6"
+        app:layout_constraintTop_toTopOf="@+id/textViewTitleMain6" />
+
+    <TextView
+        android:id="@+id/textViewAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="1000M"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textColorHighlight="#6A2C2C"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/textViewTitleMain4"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

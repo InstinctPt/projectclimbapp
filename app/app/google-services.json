@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151496112551",
+    "project_id": "project-climb",
+    "storage_bucket": "project-climb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151496112551:android:8ec62c0b00da27074e5e82",
+        "android_client_info": {
+          "package_name": "leandro.ipca.projectclimb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151496112551-fim2duhft0f0og1hkel8484jnh8mckje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATrPfsyoayBPjImNwQg0XO7xvSv7aDNLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151496112551-fim2duhft0f0og1hkel8484jnh8mckje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
